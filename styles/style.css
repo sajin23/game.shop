@@ -245,9 +245,9 @@ background-clip: text;
     margin-right: 50px;
 }
 .pic-1{
-position: relative;
-top: 0;
-left: 0;
+    position: relative;
+    bottom: 0;
+    right: 0;
 }
 .pic-2{
 position: relative;
@@ -291,3 +291,158 @@ background-clip: text;
     bottom: 250px;
     left: 470px;
     }
+    /* career */
+    .care{
+        background: linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%);
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .Career{
+       padding: 70px 150px;
+    }
+    .Career-title{
+        color: #f3f0f0;
+font-size: 48px;
+font-weight: 700;
+    }
+    .Career-desc{
+        color: #FFF;
+font-size: 18px;
+font-weight: 400;
+    }
+    .Career-sub{
+        display: flex;
+        gap: 90px;
+        margin-top: 30px;
+    }
+ .Career-sub-1{
+        color: #FFF;
+font-size: 20px;
+font-weight: 600;
+    }
+    .Career-sub-2{
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 600;
+    }
+.career-btn{
+color:  #FF42A5;
+font-size: 20px;
+font-weight: 600;
+border-radius: 48px;
+background: #FFF;
+padding: 21px 40px;
+border: none;
+margin-top: 40px;
+}
+.core img{
+    width: 100%;
+}
+.core{
+    margin: 70px 0;
+}
+
+
+.crove{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    padding: 100px 210px;
+}
+.on-game{
+    display: flex;
+    align-items: center;
+
+}
+footer{
+    background: #0B0223;
+}
+footer .nav-d{
+    margin: 0 600px;
+    margin-bottom: 60px;
+    color: #FFF;
+    padding-top: 70px;
+}
+footer li{
+ list-style: none;
+ color: #FFF;
+text-align: center;
+font-size: 18px;
+font-weight: 600;
+}
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer li img{
+    width: 40px;
+height: 40px;
+margin-top: 50px;
+}
+footer .fu{
+    margin-top: 50px;
+}
+footer p{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-size: 16px;
+font-weight: 500;
+padding: 50px 0;
+}
+
+
+@media screen and (max-width: 576px) {
+    nav, .nav-uls, .nav-ul-1, .we-game, .garora, .game-vd-o, .play-1, .play-2, .care, .header{
+        display: flex;
+        flex-direction: column;
+
+    }
+    .game-vd, .pic-1, .pic-3, .carr img{
+        width: 100%;
+    }
+    .header-2 img{
+        width: 100%;
+    }
+    .pic-2{
+        position: relative;
+        bottom: 250px;
+        right: 100px;
+        }
+        .pic-3{
+            position: relative;
+            bottom: 110px;
+            right: 140px;
+            }
+    .pic-4{
+        position: relative;
+        bottom: 150px;
+        left: 30px;
+        }
+        .pic-1, .pic-2 img{
+            padding: 50px;
+        }
+        .Career{
+            justify-content: center;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .crove{
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        footer .nav-d{
+            margin: 0 80px;
+            margin-bottom: 40px;
+        }
+        .grow{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+        .fea{
+            align-items: center;
+        }
+        .play-game{
+            padding: 0 30px;
+        }
+}
